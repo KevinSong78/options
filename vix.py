@@ -13,8 +13,6 @@ from sklearn.metrics import (
     classification_report
 )
 
-
-# Training Data
 def load_data():
     vix = yf.download("^VIX", start="2010-01-01")
     spy = yf.download("SPY", start="2010-01-01")
